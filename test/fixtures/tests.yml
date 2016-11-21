@@ -1,0 +1,87 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  cday: 2016-11-21
+  cid: 1
+  clocation: MyString
+  cno: 1
+  copresenter_kana1: MyString
+  copresenter_kana2: MyString
+  copresenter_kana3: MyString
+  copresenter_kana4: MyString
+  copresenter_kana5: MyString
+  copresenter_kana6: MyString
+  copresenter_kana7: MyString
+  copresenter_name1: MyString
+  copresenter_name2: MyString
+  copresenter_name3: MyString
+  copresenter_name4: MyString
+  copresenter_name5: MyString
+  copresenter_name6: MyString
+  copresenter_name7: MyString
+  copresenter_office1: MyString
+  copresenter_office2: MyString
+  copresenter_office3: MyString
+  copresenter_office4: MyString
+  copresenter_office5: MyString
+  copresenter_office6: MyString
+  copresenter_office7: MyString
+  croom: MyString
+  ctime: 2016-11-21 00:26:01
+  ctype: MyString
+  filename: MyString
+  form_lang: MyString
+  leader_belongs: MyString
+  leader_kana: MyString
+  leader_name: MyString
+  leader_office: MyString
+  prefecture: MyString
+  title: MyString
+  title_sub: MyString
+  zacho_kana: MyString
+  zacho_name: MyString
+  zacho_office: MyString
+
+two:
+  category: MyString
+  cday: 2016-11-21
+  cid: 1
+  clocation: MyString
+  cno: 1
+  copresenter_kana1: MyString
+  copresenter_kana2: MyString
+  copresenter_kana3: MyString
+  copresenter_kana4: MyString
+  copresenter_kana5: MyString
+  copresenter_kana6: MyString
+  copresenter_kana7: MyString
+  copresenter_name1: MyString
+  copresenter_name2: MyString
+  copresenter_name3: MyString
+  copresenter_name4: MyString
+  copresenter_name5: MyString
+  copresenter_name6: MyString
+  copresenter_name7: MyString
+  copresenter_office1: MyString
+  copresenter_office2: MyString
+  copresenter_office3: MyString
+  copresenter_office4: MyString
+  copresenter_office5: MyString
+  copresenter_office6: MyString
+  copresenter_office7: MyString
+  croom: MyString
+  ctime: 2016-11-21 00:26:01
+  ctype: MyString
+  filename: MyString
+  form_lang: MyString
+  leader_belongs: MyString
+  leader_kana: MyString
+  leader_name: MyString
+  leader_office: MyString
+  prefecture: MyString
+  title: MyString
+  title_sub: MyString
+  zacho_kana: MyString
+  zacho_name: MyString
+  zacho_office: MyString

@@ -1,0 +1,181 @@
+<%= form_for(@test) do |f| %>
+  <% if @test.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@test.errors.count, "error") %> prohibited this test from being saved:</h2>
+
+      <ul>
+      <% @test.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :category %><br>
+    <%= f.text_field :category %>
+  </div>
+  <div class="field">
+    <%= f.label :cday %><br>
+    <%= f.date_select :cday %>
+  </div>
+  <div class="field">
+    <%= f.label :cid %><br>
+    <%= f.number_field :cid %>
+  </div>
+  <div class="field">
+    <%= f.label :clocation %><br>
+    <%= f.text_field :clocation %>
+  </div>
+  <div class="field">
+    <%= f.label :cno %><br>
+    <%= f.number_field :cno %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_kana1 %><br>
+    <%= f.text_field :copresenter_kana1 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_kana2 %><br>
+    <%= f.text_field :copresenter_kana2 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_kana3 %><br>
+    <%= f.text_field :copresenter_kana3 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_kana4 %><br>
+    <%= f.text_field :copresenter_kana4 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_kana5 %><br>
+    <%= f.text_field :copresenter_kana5 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_kana6 %><br>
+    <%= f.text_field :copresenter_kana6 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_kana7 %><br>
+    <%= f.text_field :copresenter_kana7 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_name1 %><br>
+    <%= f.text_field :copresenter_name1 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_name2 %><br>
+    <%= f.text_field :copresenter_name2 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_name3 %><br>
+    <%= f.text_field :copresenter_name3 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_name4 %><br>
+    <%= f.text_field :copresenter_name4 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_name5 %><br>
+    <%= f.text_field :copresenter_name5 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_name6 %><br>
+    <%= f.text_field :copresenter_name6 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_name7 %><br>
+    <%= f.text_field :copresenter_name7 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_office1 %><br>
+    <%= f.text_field :copresenter_office1 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_office2 %><br>
+    <%= f.text_field :copresenter_office2 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_office3 %><br>
+    <%= f.text_field :copresenter_office3 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_office4 %><br>
+    <%= f.text_field :copresenter_office4 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_office5 %><br>
+    <%= f.text_field :copresenter_office5 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_office6 %><br>
+    <%= f.text_field :copresenter_office6 %>
+  </div>
+  <div class="field">
+    <%= f.label :copresenter_office7 %><br>
+    <%= f.text_field :copresenter_office7 %>
+  </div>
+  <div class="field">
+    <%= f.label :croom %><br>
+    <%= f.text_field :croom %>
+  </div>
+  <div class="field">
+    <%= f.label :ctime %><br>
+    <%= f.time_select :ctime %>
+  </div>
+  <div class="field">
+    <%= f.label :ctype %><br>
+    <%= f.text_field :ctype %>
+  </div>
+  <div class="field">
+    <%= f.label :filename %><br>
+    <%= f.text_field :filename %>
+  </div>
+  <div class="field">
+    <%= f.label :form_lang %><br>
+    <%= f.text_field :form_lang %>
+  </div>
+  <div class="field">
+    <%= f.label :leader_belongs %><br>
+    <%= f.text_field :leader_belongs %>
+  </div>
+  <div class="field">
+    <%= f.label :leader_kana %><br>
+    <%= f.text_field :leader_kana %>
+  </div>
+  <div class="field">
+    <%= f.label :leader_name %><br>
+    <%= f.text_field :leader_name %>
+  </div>
+  <div class="field">
+    <%= f.label :leader_office %><br>
+    <%= f.text_field :leader_office %>
+  </div>
+  <div class="field">
+    <%= f.label :prefecture %><br>
+    <%= f.text_field :prefecture %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :title_sub %><br>
+    <%= f.text_field :title_sub %>
+  </div>
+  <div class="field">
+    <%= f.label :zacho_kana %><br>
+    <%= f.text_field :zacho_kana %>
+  </div>
+  <div class="field">
+    <%= f.label :zacho_name %><br>
+    <%= f.text_field :zacho_name %>
+  </div>
+  <div class="field">
+    <%= f.label :zacho_office %><br>
+    <%= f.text_field :zacho_office %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

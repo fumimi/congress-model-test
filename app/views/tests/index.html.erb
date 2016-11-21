@@ -1,0 +1,107 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Tests</h1>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Cday</th>
+      <th>Cid</th>
+      <th>Clocation</th>
+      <th>Cno</th>
+      <th>Copresenter kana1</th>
+      <th>Copresenter kana2</th>
+      <th>Copresenter kana3</th>
+      <th>Copresenter kana4</th>
+      <th>Copresenter kana5</th>
+      <th>Copresenter kana6</th>
+      <th>Copresenter kana7</th>
+      <th>Copresenter name1</th>
+      <th>Copresenter name2</th>
+      <th>Copresenter name3</th>
+      <th>Copresenter name4</th>
+      <th>Copresenter name5</th>
+      <th>Copresenter name6</th>
+      <th>Copresenter name7</th>
+      <th>Copresenter office1</th>
+      <th>Copresenter office2</th>
+      <th>Copresenter office3</th>
+      <th>Copresenter office4</th>
+      <th>Copresenter office5</th>
+      <th>Copresenter office6</th>
+      <th>Copresenter office7</th>
+      <th>Croom</th>
+      <th>Ctime</th>
+      <th>Ctype</th>
+      <th>Filename</th>
+      <th>Form lang</th>
+      <th>Leader belongs</th>
+      <th>Leader kana</th>
+      <th>Leader name</th>
+      <th>Leader office</th>
+      <th>Prefecture</th>
+      <th>Title</th>
+      <th>Title sub</th>
+      <th>Zacho kana</th>
+      <th>Zacho name</th>
+      <th>Zacho office</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tests.each do |test| %>
+      <tr>
+        <td><%= test.category %></td>
+        <td><%= test.cday %></td>
+        <td><%= test.cid %></td>
+        <td><%= test.clocation %></td>
+        <td><%= test.cno %></td>
+        <td><%= test.copresenter_kana1 %></td>
+        <td><%= test.copresenter_kana2 %></td>
+        <td><%= test.copresenter_kana3 %></td>
+        <td><%= test.copresenter_kana4 %></td>
+        <td><%= test.copresenter_kana5 %></td>
+        <td><%= test.copresenter_kana6 %></td>
+        <td><%= test.copresenter_kana7 %></td>
+        <td><%= test.copresenter_name1 %></td>
+        <td><%= test.copresenter_name2 %></td>
+        <td><%= test.copresenter_name3 %></td>
+        <td><%= test.copresenter_name4 %></td>
+        <td><%= test.copresenter_name5 %></td>
+        <td><%= test.copresenter_name6 %></td>
+        <td><%= test.copresenter_name7 %></td>
+        <td><%= test.copresenter_office1 %></td>
+        <td><%= test.copresenter_office2 %></td>
+        <td><%= test.copresenter_office3 %></td>
+        <td><%= test.copresenter_office4 %></td>
+        <td><%= test.copresenter_office5 %></td>
+        <td><%= test.copresenter_office6 %></td>
+        <td><%= test.copresenter_office7 %></td>
+        <td><%= test.croom %></td>
+        <td><%= test.ctime %></td>
+        <td><%= test.ctype %></td>
+        <td><%= test.filename %></td>
+        <td><%= test.form_lang %></td>
+        <td><%= test.leader_belongs %></td>
+        <td><%= test.leader_kana %></td>
+        <td><%= test.leader_name %></td>
+        <td><%= test.leader_office %></td>
+        <td><%= test.prefecture %></td>
+        <td><%= test.title %></td>
+        <td><%= test.title_sub %></td>
+        <td><%= test.zacho_kana %></td>
+        <td><%= test.zacho_name %></td>
+        <td><%= test.zacho_office %></td>
+        <td><%= link_to 'Show', test %></td>
+        <td><%= link_to 'Edit', edit_test_path(test) %></td>
+        <td><%= link_to 'Destroy', test, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test', new_test_path %>
